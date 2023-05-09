@@ -1,0 +1,12 @@
+#light {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --text-color-primary : blue;
+  }
+  
+  /* Dark mode */
+  #dark {
+    --background-color: #1f1f1f;
+    --text-color: #ffffff;
+    --text-color-primary : purple;
+  }

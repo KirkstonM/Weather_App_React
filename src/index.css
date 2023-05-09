@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    background: url('./images/sunny_weather.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.4s ease;
+}
+
+.main.dark {
+    background: url('./images/clear_weather.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.input-form {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.input-form input {
+    width: 50%;
+    padding: 0.7rem;
+    border: none;
+    background: #5858586b;
+    border-radius: 0.5rem;
+    margin-right: 1.8rem;
+
+}
+
+.input-form input:focus {
+    background: #fff;
+    border: none;
+
+}
+
+.input-form button {
+    padding: 0.5rem 1rem;
+    background: none;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    color: white;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.input-form button:hover {
+    border: 2px solid white;
+}
+
+.location {
+    margin: 5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.location h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+}
+
+.temperature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.temperature-details {
+    display: inline-block;
+    padding: 3rem;
+    background: #beb3b321;
+    border-radius: 1.5rem;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.temperature-details h1 {
+    color: rgb(29, 152, 209);
+    font-size: 5rem;
+}
+
+.day-time-section {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem auto;
+}
+
+.decription {
+    color: red;
+    margin-top: 1.5rem;
+    font-family: Verdana;
+    font-style: oblique;
+    color: rgb(29, 152, 209);
+    font-weight: bolder;
+}
+
+.day-time-section .day,
+.date {
+    font-family: Georgia;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: skyblue;
+}
+
+.error-body {
+    margin: 10rem auto;
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: fantasy;
+    letter-spacing: 0.2rem;
+    font-weight: 200;
+    color: white;
+    background: #222;
+
+}
